@@ -2,7 +2,7 @@
 
 这里仅发布 macOS 安装包、更新源及使用说明，不包含源代码、用户文书或账户凭据。
 
-[下载最新版本](https://github.com/susssed/pi-reminder-releases/releases/latest)
+[产品介绍网页](https://susssed.github.io/pi-reminder-releases/) · [下载最新版本](https://github.com/susssed/pi-reminder-releases/releases/latest)
 
 ## 适用电脑
 Apple 芯片 Mac，macOS 14 或更新版本。尚不支持 Intel Mac、Windows 和手机。
