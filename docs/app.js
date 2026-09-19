@@ -3,6 +3,7 @@
 const events = [
   { day: 20, time: '15:00', title: '联系客户确认材料', kind: '工作提醒' },
   { day: 23, time: '14:30', title: '星河物流｜开庭', kind: '开庭事项' },
+  { day: 25, time: '09:00', title: '云杉科技｜缴费提醒', kind: '期限暂估 · 需核对' },
   { day: 28, time: '09:00', title: '远川贸易｜续封提醒', kind: '保全提醒' }
 ];
 const grid = document.getElementById('calendar');
