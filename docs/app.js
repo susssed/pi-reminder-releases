@@ -2,7 +2,7 @@
 // Fictional product illustration. No user files or tracking.
 // Fetch only public release metadata to keep direct download links current.
 const events = [
-  { day: 20, time: '15:00', title: '联系客户确认材料', kind: '工作提醒' },
+  { day: 22, time: '15:00', title: '联系客户确认材料', kind: '随手记下的安排' },
   { day: 23, time: '14:30', title: '星河物流｜开庭', kind: '开庭事项' },
   { day: 25, time: '09:00', title: '云杉科技｜缴费提醒', kind: '期限暂估 · 需核对' },
   { day: 28, time: '09:00', title: '远川贸易｜续封提醒', kind: '保全提醒' }
@@ -35,7 +35,7 @@ const blank = document.createElement('span'); blank.className = 'blank'; grid.ap
 for (let day = 1; day <= 30; day++) {
   const b = document.createElement('button'); b.type = 'button'; b.textContent = day; b.dataset.day = day;
   const hasEvent = events.some(e => e.day === day);
-  b.className = (day === 19 ? 'today ' : '') + (hasEvent ? 'has-event' : '');
+  b.className = (day === 22 ? 'today ' : '') + (hasEvent ? 'has-event' : '');
   b.setAttribute('aria-label', `示例 9 月 ${day} 日${hasEvent ? '，有事项' : ''}`);
   b.addEventListener('click', () => showDay(day)); grid.append(b);
 }
